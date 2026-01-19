@@ -1,0 +1,48 @@
+# === Python cache and compiled files ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+.venv/                  # Standard Python venv
+env/
+ENV/
+venv/
+conda-meta/             # Conda environment metadata
+
+# === VS Code settings ===
+.vscode/
+.code-workspace
+
+# === Package build artifacts ===
+*.egg-info/
+*.conda
+pkgs/
+
+# === Jupyter notebooks ===
+.ipynb_checkpoints/
+
+# === Simulation / result outputs ===
+results/
+Results*/               # e.g., Results, Results_fixed
+Comparison/
+plots/
+*.csv
+*.png
+
+# === Temporary or backup files ===
+*.log
+*.out
+*.bak
+*.tmp
+*.pkl
+*.sav
+
+# === IDE or OS-specific files ===
+.DS_Store               # macOS
+Thumbs.db               # Windows
+desktop.ini             # Windows
+*.swp                   # vim swap files
+
+# === Optional: ignore local test data ===
+data/
